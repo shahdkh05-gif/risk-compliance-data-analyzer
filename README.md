@@ -1,8 +1,12 @@
 # Risk & Compliance Data Analyzer
 
-This is a simple Python project that analyzes incident and compliance-style data. It loads a CSV file, cleans up messy values, classifies each record into a risk level, saves the processed data to SQLite, creates charts, and exports a final CSV report.
+This is a simple Python project that analyzes incident and compliance data. It cleans the data, groups incidents by risk level, stores the processed records in SQLite, and creates a few charts and reports.
 
-I made it as a student portfolio project, so the code is kept straightforward and easy to follow from the terminal.
+I built this project as part of my portfolio because I am interested in data analysis, data governance, and GRC work.
+
+## Problem Statement
+
+Organizations usually have many incident or compliance records, but the raw data can be messy or hard to understand quickly. This project shows how basic data analysis can help organize those records and highlight which incidents may need more attention.
 
 ## Technologies Used
 
@@ -12,15 +16,19 @@ I made it as a student portfolio project, so the code is kept straightforward an
 - SQLite
 - Matplotlib
 
-## What It Does
+## Features
 
 - Loads incident data from a CSV file
-- Creates a sample cybersecurity incident dataset if no dataset exists yet
-- Cleans missing values and fixes inconsistent formatting
-- Classifies incidents as Low Risk, Medium Risk, High Risk, or Critical Risk
+- Creates sample incident data if no CSV file exists
+- Cleans missing values and fixes formatting issues
+- Classifies incidents into four risk levels:
+  - Low Risk
+  - Medium Risk
+  - High Risk
+  - Critical Risk
 - Counts incidents by risk level, category, department, and month
-- Stores the cleaned data in a SQLite database
-- Creates charts for the analysis
+- Saves the cleaned data into a SQLite database
+- Creates charts for the main analysis
 - Exports a final CSV report
 
 ## Project Structure
@@ -34,18 +42,7 @@ requirements.txt
 README.md
 ```
 
-When the project runs, it also creates:
-
-```text
-data/sample_incidents.csv
-outputs/final_risk_report.csv
-outputs/risk_distribution_pie.png
-outputs/incident_trend_chart.png
-outputs/category_breakdown_chart.png
-risk_compliance.db
-```
-
-## How To Run It
+## How To Run The Project
 
 1. Open the project folder in your terminal.
 
@@ -61,20 +58,21 @@ pip install -r requirements.txt
 python main.py
 ```
 
-The first time you run it, the project creates a sample dataset automatically inside the `data` folder.
+The project will create a sample dataset automatically the first time it runs.
 
 ## Outputs
 
-The terminal shows a short summary, including the total number of records and the number of incidents in each risk level.
+After running the project, these files are created:
 
-The `outputs` folder contains the final CSV report and three chart images:
+- `data/sample_incidents.csv` - sample incident dataset
+- `outputs/final_risk_report.csv` - cleaned data with risk levels added
+- `risk_compliance.db` - SQLite database with the processed records
+- `outputs/risk_distribution_pie.png` - chart showing risk level distribution
+- `outputs/incident_trend_chart.png` - chart showing incidents over time
+- `outputs/category_breakdown_chart.png` - chart showing incident categories
 
-- `risk_distribution_pie.png` shows how incidents are split across risk levels
-- `incident_trend_chart.png` shows how incidents change month by month
-- `category_breakdown_chart.png` shows which incident categories appear the most
-
-The SQLite database file is called `risk_compliance.db`. It stores the cleaned data in a table named `processed_incidents`.
+The terminal also prints a short summary of the results.
 
 ## Notes
 
-This project uses generated sample data, but the same code can be adjusted to work with a real incident or compliance CSV file later.
+This project uses sample data, so it is mainly for practice and portfolio purposes. The same structure can be used with a real incident, compliance, or risk dataset if the CSV columns are adjusted.
