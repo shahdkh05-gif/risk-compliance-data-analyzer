@@ -1,0 +1,121 @@
+incident_id,date_reported,department,category,severity_score,status,estimated_cost
+1,2025-01-26,Operations,Unauthorized Access,5.0,Closed,14427
+2,2025-01-24,IT,Malware,10.0,Resolved,13692
+3,2025-03-10,IT,System Outage,8.0,Open,13887
+4,2025-09-08,Operations,System Outage,8.0,Open,12467
+5,2025-11-09,IT,Data Handling Issue,6.0,Open,5359
+6,2025-10-18,,Malware,1.0,Resolved,9464
+7,2025-12-10,Operations,Unauthorized Access,10.0,Open,17141
+8,2025-12-16,Security,System Outage,1.0,Open,6923
+9,2025-10-19,IT,Data Handling Issue,10.0,Closed,16976
+10,2025-08-13,Legal,System Outage,8.0,Closed,7125
+11,2025-08-08,Finance,Unauthorized Access,4.0,Closed,8184
+12,2025-02-03,Operations,Malware,4.0,Investigating,5585
+13,2025-05-11,Operations,Policy Violation,2.0,Resolved,14857
+14,2025-03-09,Operations,Policy Violation,8.0,Closed,1284
+15,2025-11-29,Operations,System Outage,10.0,Open,18928
+16,2025-11-01,Security,Unauthorized Access,4.0,Open,6094
+17,2025-02-13,Legal,Policy Violation,7.0,Closed,1655
+18,2025-02-24,Legal,Data Handling Issue,9.0,Open,11727
+19,2025-07-29,HR,Data Handling Issue,8.0,,20136
+20,2025-06-19,Legal,Policy Violation,10.0,Open,24816
+21,2025-08-15,Security,Phishing,7.0,Resolved,943
+22,2025-12-16,HR,Malware,5.0,Investigating,16933
+23,2025-11-29,Finance,Phishing,7.0,Open,2211
+24,2025-03-29,Legal,System Outage,6.0,Closed,15424
+25,2025-11-28,IT,Malware,10.0,Investigating,4681
+26,2025-11-04,Finance,System Outage,9.0,Open,20833
+27,2025-07-19,Legal,Policy Violation,5.0,Investigating,22234
+28,2025-03-05,Security,Phishing,3.0,Investigating,19991
+29,2025-04-28,Finance,Data Handling Issue,1.0,Open,13263
+30,2025-02-12,IT,Policy Violation,10.0,Closed,24932
+31,2025-08-19,HR,Malware,8.0,Investigating,17153
+32,2025-01-02,IT,Phishing,6.0,Investigating,12261
+33,2025-09-13,HR,Phishing,2.0,Investigating,6446
+34,2025-01-28,Security,Phishing,5.0,Closed,16845
+35,2025-11-07,HR,System Outage,,Closed,15589
+36,2025-07-30,Security,Phishing,1.0,Open,15904
+37,2025-10-30,IT,Policy Violation,10.0,Open,7283
+38,2025-05-25,Finance,Unauthorized Access,6.0,Resolved,17692
+39,2025-03-11,Security,Unauthorized Access,5.0,Investigating,23077
+40,2025-08-12,Security,Policy Violation,5.0,Resolved,7490
+41,2025-04-16,Legal,Phishing,4.0,Closed,14715
+42,2025-02-03,Operations,Unauthorized Access,2.0,Open,5203
+43,2025-03-03,Security,Unauthorized Access,2.0,Open,20356
+44,2025-05-03,HR,Phishing,2.0,Open,15839
+45,2025-01-09,Security,Malware,2.0,Closed,11146
+46,2025-07-01,HR,System Outage,9.0,Open,22315
+47,2025-10-27,Finance,Policy Violation,5.0,Open,10662
+48,2025-01-19,Legal,Data Handling Issue,10.0,Investigating,2362
+49,2025-09-04,Security,Data Handling Issue,1.0,Resolved,19754
+50,2025-03-15,Operations,Phishing,9.0,Resolved,6000
+51,2025-04-15,Legal,Malware,6.0,Open,5291
+52,2025-07-26,HR,Data Handling Issue,8.0,Resolved,9957
+53,2025-06-13,Security,Phishing,10.0,Closed,2441
+54,2025-08-01,Finance,Data Handling Issue,7.0,Resolved,15103
+55,2025-08-26,Operations,Data Handling Issue,5.0,Closed,13609
+56,2025-05-07,Operations,Data Handling Issue,8.0,Resolved,19159
+57,2025-02-03,IT,System Outage,2.0,Closed,10502
+58,2025-04-14,IT,Phishing,2.0,Investigating,18060
+59,2025-08-15,Operations,System Outage,2.0,Open,13518
+60,2025-07-23,Finance,Data Handling Issue,2.0,Investigating,13738
+61,2025-12-14,Operations,Unauthorized Access,1.0,Resolved,3766
+62,2025-09-08,Security,Malware,9.0,Closed,10174
+63,2025-09-12,HR,Data Handling Issue,1.0,Resolved,20663
+64,2025-01-29,Legal,System Outage,10.0,Investigating,22618
+65,2025-12-28,Finance,System Outage,10.0,Open,19712
+66,2025-06-14,Legal,Unauthorized Access,3.0,Closed,2713
+67,2025-03-28,Security,Unauthorized Access,3.0,Resolved,11104
+68,2025-11-10,Legal,Phishing,6.0,Closed,3140
+69,2025-12-06,HR,Policy Violation,10.0,Resolved,3384
+70,2025-01-05,IT,Policy Violation,4.0,Resolved,13412
+71,2025-10-23,IT,Policy Violation,3.0,Open,4084
+72,2025-04-24,Security,System Outage,5.0,Investigating,7533
+73,2025-02-19,IT, malware ,1.0,Resolved,7314
+74,2025-11-17,HR,System Outage,3.0,Closed,8072
+75,2025-01-01,IT,Policy Violation,2.0,Closed,13931
+76,2025-06-06,Finance,Unauthorized Access,7.0,Investigating,20129
+77,2025-08-03,Security,Unauthorized Access,9.0,Closed,1900
+78,2025-11-19,Legal,Malware,6.0,Resolved,1182
+79,2025-06-16,HR,Malware,9.0,Open,2107
+80,2025-02-26,Legal,System Outage,7.0,Resolved,21154
+81,2025-08-29,Security,System Outage,4.0,Open,9747
+82,2025-02-10,HR,Data Handling Issue,1.0,Closed,23283
+83,2025-01-29,Operations,Policy Violation,1.0,Investigating,24384
+84,2025-08-02,Finance,System Outage,2.0,Investigating,14925
+85,2025-01-22,Operations,Phishing,7.0,Investigating,14605
+86,2025-05-31,IT,Policy Violation,5.0,Resolved,12097
+87,2025-02-08,IT,Phishing,4.0,Open,14781
+88,2025-09-16,HR,Phishing,7.0,Investigating,22480
+89,2025-06-04,HR,System Outage,10.0,Closed,4267
+90,2025-07-27,Legal,Malware,10.0,Open,24821
+91,2025-04-14,HR,System Outage,9.0,Resolved,13859
+92,2025-03-26,IT,Unauthorized Access,7.0,Investigating,24591
+93,2025-07-26,Security,Malware,4.0,Investigating,8619
+94,2025-01-31,HR,System Outage,10.0,Investigating,4514
+95,2025-12-25,Finance,Phishing,8.0,Closed,7244
+96,2025-06-05,HR,Policy Violation,7.0,Resolved,5125
+97,2025-01-05,Finance,Data Handling Issue,5.0,Closed,21593
+98,2025-09-06,IT,Policy Violation,4.0,Open,4716
+99,2025-04-11,Security,Data Handling Issue,6.0,Open,20072
+100,2025-07-02,Operations,Unauthorized Access,8.0,Investigating,5339
+101,2025-11-01,Operations,System Outage,7.0,Closed,20242
+102,2025-02-11,Operations,Policy Violation,8.0,Closed,8397
+103,2025-05-30,Security,System Outage,3.0,Resolved,8165
+104,2025-02-07,Security,Malware,2.0,Resolved,2849
+105,2025-11-08,Finance,Policy Violation,2.0,Open,11626
+106,2025-02-10,Operations,Policy Violation,6.0,Investigating,5537
+107,2025-02-02,Security,Unauthorized Access,6.0,Closed,9592
+108,2025-01-01,Legal,Policy Violation,5.0,Closed,24393
+109,2025-11-26,Legal,Unauthorized Access,7.0,Open,3326
+110,2025-11-28,IT,Unauthorized Access,9.0,Closed,5223
+111,2025-04-23,IT,Data Handling Issue,8.0,Open,21744
+112,2025-12-26,Security,Policy Violation,3.0,Investigating,22233
+113,2025-07-12,Legal,Unauthorized Access,9.0,Closed,17123
+114,2025-05-30,Operations,System Outage,5.0,Open,22462
+115,2025-03-27,Finance,Data Handling Issue,1.0,Closed,11636
+116,2025-11-27,HR,Unauthorized Access,2.0,Resolved,21824
+117,2025-10-08,HR,System Outage,5.0,Investigating,14395
+118,2025-07-08,Finance,Unauthorized Access,3.0,Open,15462
+119,2025-06-19,Security,Policy Violation,10.0,Closed,5881
+120,2025-09-13,Operations,Phishing,7.0,Open,21500
